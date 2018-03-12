@@ -3,7 +3,7 @@ p {
 }
 
 header {
-    background-color: #2ba6cb;
+    background-color: #666;
     padding: 22px 0;
 }
 
@@ -22,5 +22,34 @@ header h4 {
 }
 
 .highlight {
-    color: #5EC7E5;
+    color: #666;
+}
+
+.label {
+    padding: 10px 20px;
+    margin-right: 2.5%;
+}
+
+p.title.accordion-title {
+    font-size: 1em;
+}
+p.title.accordion-title a:first-child {
+    width: 82.5%
+}
+p.title.accordion-title a:last-child {
+    width: 14%;
+    position: absolute;
+    top: -0.5em;
+    font-size: 1em;
+}
+p.subheader {
+    margin: 10px;
+    padding: 5px;
+}
+.section-container.accordion a:first {
+    width: 80%;
+}
+.section-container.accordion a:last-child {
+    width: 20%;
+    text-align: center;
 }
