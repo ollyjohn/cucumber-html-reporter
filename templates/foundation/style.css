@@ -48,6 +48,7 @@ p.title.accordion-title a:last-child {
 p.subheader {
     margin: 10px;
     padding: 5px;
+    color: #999;
 }
 .section-container.accordion a:first {
     width: 80%;
