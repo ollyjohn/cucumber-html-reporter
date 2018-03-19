@@ -26,15 +26,18 @@ header h4 {
 }
 
 .label {
-    padding: 10px 20px;
-    margin-right: 2.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 64px;
 }
+
+.title.acc
 
 p.title.accordion-title {
     font-size: 1em;
 }
 p.title.accordion-title a:first-child {
-    width: 82.5%
+    width: 82%
 }
 p.title.accordion-title a:last-child {
     width: 14%;
@@ -46,7 +49,7 @@ p.title.accordion-title a:last-child {
     margin-top: -1px;
 }
 p.subheader {
-    margin: 10px;
+    margin: 10 0 10 10;
     padding: 5px;
     color: #999;
 }
