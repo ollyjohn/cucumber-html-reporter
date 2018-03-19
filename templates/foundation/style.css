@@ -52,8 +52,10 @@ p.subheader {
     color: #999;
     width: 85%;
 }
+.content .subheader:last-child {
+    width: 100%
+}
 .subheader .label {
     position: relative;
     left: 18.5%
 }
-    
