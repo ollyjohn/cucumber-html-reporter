@@ -1,61 +1,63 @@
-p {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
 
-header {
-    background-color: #666;
-    padding: 22px 0;
-}
-
-header h1,
-header h4 {
-    color: #fff !important;
-}
-
-header h4 {
-    font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
-.right-col {
-    text-align: right;
-}
-
-.highlight {
-    color: #666;
-}
-
-.label {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100px;
-}
-
-p.title.accordion-title {
-    font-size: 1em;
-}
-p.title.accordion-title a:first-child {
-    width: 85%
-}
-p.title.accordion-title a:last-child {
-    width: 15%;
-    position: absolute;
-    top: -0.5em;
-    font-size: 1em;
-}
-.content {
-    margin-top: -1px;
-}
-p.subheader {
-    margin: 10 0 10 10;
-    padding: 5px;
-    color: #999;
-    width: 85%;
-}
-.content .subheader:last-child {
-    width: 100%
-}
-.subheader .label {
-    position: relative;
-    left: 18.5%
-}
+      p {
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #666;
+        padding: 22px 0;
+    }
+    
+    header h1,
+    header h4 {
+        color: #fff !important;
+    }
+    
+    header h4 {
+        font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .right-col {
+        text-align: right;
+    }
+    
+    .highlight {
+        color: #666;
+    }
+    
+    .label {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100px;
+    }
+    
+    p.title.accordion-title {
+        font-size: 1em;
+    }
+    p.title.accordion-title a:first-child {
+        width: 85%
+    }
+    p.title.accordion-title a:last-child {
+        width: 15%;
+        position: absolute;
+        top: -0.5em;
+        font-size: 1em;
+    }
+    .content {
+        margin-top: -1px;
+    }
+    p.subheader {
+        margin: 10 0 10 10;
+        padding: 5px;
+        color: #999;
+        width: 85%;
+    }
+    .content .subheader:last-child {
+        width: 100%
+    }
+    .subheader .label {
+        position: relative;
+        left: calc( 15% + 26px )
+    }
+        
