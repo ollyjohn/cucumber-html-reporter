@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cucumber Feature Report</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/foundation.min.css">
-    <style type="text/css">
-      <%= styles %>
-    </style>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <header>
-      <div class="row">
-        <div class="large-6 columns">
-          <h1 class="subheader">E2E Example</h1>
-          <h4 class="subheader">Feature tests</h4>
-        </div>
-        <div class="large-6 columns right-col">
-        </div>
-      </div>
-    </header>
-    <br /><br />
+	<head>
+		<title>Cucumber Feature Report</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/foundation.min.css">
+		<style type="text/css">
+			<%= styles %>
+		</style>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+		<div class="row">
+			<div class="large-12 columns">
+				<h1 class="subheader"><%= suite.company %></h1>
+				<h4 class="subheader"><%= suite.name %></h4>
+			</div>
+		</div>
+		</header>
+		<br /><br />
 
-    <%= features %>
+		<%= features %>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-    <script>
-      <%= script %>
-      <%= screenshot %>
-    </script>
-  </body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+		<script>
+		<%= script %>
+		<%= screenshot %>
+		</script>
+	</body>
 </html>
